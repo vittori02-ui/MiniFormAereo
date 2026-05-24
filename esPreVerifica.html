@@ -32,6 +32,45 @@
                 <label for="fname">COGNOME</label>
                 <input type="text" id="sname"><br><br>
                 <label for="scelta">Scegli una meta:</label>
+                <ul>
+                    <label for="mal">Malta 20€</label>
+                    <input type="radio" id="mal" name="meta" value="20">
+                    <label for="par">Parigi 40€</label>
+                    <input type="radio" id="par" name="meta" value="40"><br>
+                    <label for="mil">Milano 15€</label>
+                    <input type="radio" id="mil" name="meta" value="15">
+                    <label for="toro">Toronto 100€</label>
+                    <input type="radio" id="toro" name="meta" value="100"><br>
+                    <label for="tor">Torino 20€</label>
+                    <input type="radio" id="tor" name="meta" value="20">
+                </ul>
+                
+                <!---
+                <select id="scelta" name="scelta">
+                    <option value="mal">Malta</option>
+                    <option value="par">Parigi</option>
+                    <option value="mil">Milano</option>
+                    <option value="toro">Toronto</option>
+                    <option value="cat">Catania</option>
+                </select><br><br>
+                -->
+                <label for="num">Scegli quanti biglietti</label>
+                <input type="number" id="num" min="1" max="10"><br><br>
+                <label for="ora">Data e ora dell'andata:</label>
+                <input type="datetime-local" id="ora"><br><br>
+                <label for="oraRit">Data e ora del ritorno:</label>
+                <input type="datetime-local" id="oraRit"><br><br>
+                <label for="extra">SERVIZI EXTRA:</label>
+                <ul>
+                    <label for="bag">Bagaglio extra 15€</label>
+                    <input type="checkbox" id="bag" name="extra" value="15"><br>
+                    <label for="baby">Posto bambino 20€</label>
+                    <input type="checkbox" id="baby" name="extra" value="20">
+                </ul>
+                <button type="button" onclick="scelta()">INVIA</button>
+            </fieldset>
+        </form>
+        <div id="box">RIEPILOGO</div>
         </fieldset>
     </form>
 </body>
