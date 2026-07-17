@@ -3,3 +3,7 @@ This project represents, on a smaller scale, along with other projects, what wil
 
 images:
 
+
+![](./img/prova0.png) 
+![](./img/prova1.png)
+![](./img/prova2.png) 
